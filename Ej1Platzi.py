@@ -1,4 +1,5 @@
-// Convertir pesos colombianos en dolares
+# Convertir pesos colombianos en dolares
+
 pesos = input("pesos colombianos: ")
 pesos = float(pesos)
 valor_dolar = 3875
