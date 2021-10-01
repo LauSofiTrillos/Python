@@ -1,5 +1,11 @@
 # FUNCIONES 
 
+# funcion que retorna un valor 
+def suma(a, b):
+    print('Se suman dos números')
+    resultado = a + b
+    return resultado
+
 def imprimir_mensaje():
     print("Mensaje especial: ")
     print("FUNCIONES")
@@ -22,3 +28,5 @@ else:
     print("Escribe la opcion correcta")
 
 imprimir_mensaje()
+sumatoria = suma(4,4)
+print(sumatoria)
